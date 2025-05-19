@@ -1,0 +1,8 @@
+# Ignore compiled output folder from language stats
+out/** linguist-vendored=true
+
+# Ignore IDE config folder
+.idea/** linguist-vendored=true
+
+# Keep source code normal for detection
+src/** linguist-vendored=false
